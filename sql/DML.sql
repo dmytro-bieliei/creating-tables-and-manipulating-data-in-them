@@ -58,3 +58,12 @@ WHERE id >2 AND id <10 AND is_male = FALSE;
 UPDATE workers
 SET name = 'Evgen', email = 'evgen@test'
 WHERE name = 'Yaroslav';
+
+DELETE FROM workers
+WHERE id = 8;
+
+DELETE FROM workers
+WHERE name = 'Ivan';
+
+DELETE FROM workers
+WHERE salary = 200;
