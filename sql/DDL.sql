@@ -11,6 +11,13 @@ CREATE TABLE workers(
   salary numeric(8,2) CHECK(salary >= 0)
 );
 
-
+ALTER TABLE workers ADD COLUMN 
+  is_male boolean NOT NULL;
+  
+ALTER TABLE workers ADD COLUMN 
+  email varchar(100) NOT NULL CHECK(email !='');
+  
+ALTER TABLE workers ADD COLUMN 
+  department varchar(100) NOT NULL CHECK(department !='');
 
 
