@@ -22,3 +22,7 @@ ALTER TABLE workers ADD COLUMN
 
 ALTER TABLE workers DROP COLUMN
   department;
+  
+ALTER TABLE workers 
+ALTER COLUMN salary SET DEFAULT '150';
+  
