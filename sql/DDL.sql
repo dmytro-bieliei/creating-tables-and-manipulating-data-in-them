@@ -20,4 +20,5 @@ ALTER TABLE workers ADD COLUMN
 ALTER TABLE workers ADD COLUMN 
   department varchar(100) NOT NULL CHECK(department !='');
 
-
+ALTER TABLE workers DROP COLUMN
+  department;
