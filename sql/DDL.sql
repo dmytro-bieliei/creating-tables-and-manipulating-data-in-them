@@ -26,5 +26,5 @@ ALTER TABLE workers DROP COLUMN
 ALTER TABLE workers 
 ALTER COLUMN salary SET DEFAULT '150';
 
-  
+
 
