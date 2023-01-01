@@ -46,3 +46,15 @@ VALUES (
 UPDATE workers
 SET salary = 425  
 WHERE name = 'Nikita';
+
+UPDATE workers
+SET birthday = '12.12.1974'
+WHERE id = 4;
+
+UPDATE workers
+SET salary = 600
+WHERE id >2 AND id <10 AND is_male = FALSE;
+
+UPDATE workers
+SET name = 'Evgen', email = 'evgen@test'
+WHERE name = 'Yaroslav';
