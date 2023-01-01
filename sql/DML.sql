@@ -42,3 +42,7 @@ VALUES (
   ('Olga', '30.01.1993', 950, false, 'tedfd@test.com'),
   ('Ivan', '21.01.1993', 1050, true, 'testdsf1@test.com'),
   ('Vera', '06.08.1996', 150, false, 'testdfs1@test.com'); 
+
+UPDATE workers
+SET salary = 425  
+WHERE name = 'Nikita';
